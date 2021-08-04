@@ -1,0 +1,441 @@
+/* ヘッダー部分 */
+.header-container {
+  height: 70px;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-left img {
+  width: 124px;
+}
+
+.header-right a {
+  text-decoration: none;
+  color: gray;
+  margin-right: 15px;
+}
+
+/* メイン部分 */
+/* top-wrapper部分 */
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+  top: 0%;
+}
+
+.relative_img {
+  width: 65%;
+  display: block;
+  margin: 0 0 0 auto;
+}
+
+.absolute.first {
+  color: rgb(161, 0, 84);
+  font-family: "Indie Flower", cursive;
+  font-size: 5vw;
+  top: 10%;
+  left: 14%;
+}
+
+.absolute span {
+  color: darkcyan;
+}
+
+.absolute.second {
+  color: rgb(161, 0, 84);
+  font-weight: bold;
+  font-family: "Indie Flower", cursive;
+  font-size: 1.7vw;
+  top: 60%;
+  left: 14%;
+}
+
+.absolute.third {
+  color: rgb(98, 98, 98);
+  font-size: 1.2vw;
+  top: 66%;
+  left: 14%;
+}
+
+/* .second-wrapper部分 */
+.second-wrapper {
+  padding: 7% 20%;
+}
+
+.news-top p {
+  font-family: "Indie Flower", cursive;
+  color: rgb(161, 0, 84);
+}
+
+.news-top h2 {
+  font-size: 2vw;
+  color: rgb(98, 98, 98);
+  padding-bottom: 20px;
+}
+
+.news-container {
+  border-top: solid 2px rgb(196, 196, 196);
+  border-bottom: solid 2px rgb(196, 196, 196);
+}
+
+.news-container ul {
+  padding: 10px 0 25px 0;
+}
+
+.news-container li {
+  color: rgb(98, 98, 98);
+  display: flex;
+  border-bottom: solid 1px rgb(98, 98, 98);
+  padding: 15px;
+}
+
+.news-container li a {
+  text-decoration: none;
+  color: rgb(98, 98, 98);
+}
+
+.label {
+  background-color: rgb(161, 0, 84);
+  border-radius: 20px;
+  color: #fff;
+  padding: 1px 20px;
+  margin: 0 40px;
+}
+
+/* third-wrapper部分 */
+
+.third-wrapper {
+  background: rgb(242, 242, 242);
+  padding-bottom: 40px;
+}
+
+.third-wrapper-ttl {
+  padding: 25px 0;
+  text-align: center;
+}
+
+.third-wrapper-ttl p {
+  font-family: "Indie Flower", cursive;
+  color: rgb(161, 0, 84);
+}
+
+.third-wrapper-ttl h2 {
+  font-size: 2vw;
+  color: rgb(98, 98, 98);
+}
+
+.description {
+  padding: 0 10%;
+}
+
+.relative_img_2 {
+  width: 40%;
+  margin: 0 0 0 auto;
+  display: block;
+}
+
+.description p {
+  color: rgb(98, 98, 98);
+}
+
+.description .first-section {
+  position: absolute;
+  top: 0%;
+}
+
+.description .second-section {
+  position: absolute;
+  top: 40%;
+}
+
+/* fourth-wrapper部分 */
+.fourth-wrapper {
+  padding: 70px 0;
+}
+
+.fourth-wrapper-ttl p {
+  font-family: "Indie Flower", cursive;
+  color: rgb(161, 0, 84);
+}
+
+.fourth-wrapper-ttl h2 {
+  font-size: 2vw;
+  color: rgb(98, 98, 98);
+  padding-bottom: 30px;
+}
+.service-grid {
+  padding: 0 10%;
+  display: grid;
+  grid-template-rows: 175px 175px;
+  grid-template-columns: 1fr 1fr;
+}
+
+.box1 {
+  grid-row: 1/3;
+  grid-column: 1/2;
+  background: rgb(161, 0, 84);
+}
+
+.box2 {
+  grid-row: 1/2;
+  grid-column: 2/3;
+  background: rgb(162, 68, 120);
+}
+
+.box3 {
+  grid-row: 2/3;
+  grid-column: 2/3;
+  background: rgb(162, 115, 141);
+}
+
+.relative_img_3,
+.relative_img_4 {
+  position: absolute;
+  width: 20%;
+  height: 60%;
+}
+
+.relative_img_3 {
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.service-content-left {
+  padding: 175px 25px;
+  color: white;
+}
+
+.box1 h3 {
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.relative_img_4 {
+  top: 17%;
+  left: 3%;
+}
+
+.service-content-right h3 {
+  position: absolute;
+  top: 20%;
+  left: 32%;
+  color: white;
+}
+
+.service-content-right p {
+  position: absolute;
+  top: 40%;
+  left: 32%;
+  color: white;
+}
+
+/* blog-wrapper */
+.blog-wrapper {
+  padding: 35px 10%;
+  background: rgb(242, 242, 242);
+}
+
+.card-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.blog-wrapper-ttl p {
+  font-family: "Indie Flower", cursive;
+  color: rgb(161, 0, 84);
+}
+
+.blog-wrapper-ttl h2 {
+  font-size: 2vw;
+  color: rgb(98, 98, 98);
+  padding-bottom: 30px;
+}
+
+.blog-img img {
+  width: 100%;
+  height: auto;
+  border-radius: 20px 20px 0 0;
+}
+
+.card .absolute {
+  position: absolute;
+  color: white;
+  padding: 10px 30px;
+  background: rgb(161, 0, 84);
+  border-radius: 20px 0 0 0;
+}
+
+.card {
+  background: white;
+  cursor: pointer;
+  width: 30%;
+  border: 1px solid #e9eaea;
+  border-radius: 20px;
+  margin-bottom: 30px;
+}
+
+.blog-text-box {
+  padding: 15px;
+}
+
+.blog-text-box h2 {
+  color: rgb(98, 98, 98);
+  padding: 0 10px 30px 10px;
+  font-size: 1.3vw;
+}
+
+.blog-footer p {
+  display: inline;
+}
+
+.date {
+  font-size: 15px;
+  margin-top: 5px;
+}
+
+.blog-footer {
+  font-size: 1vw;
+  color: rgb(98, 98, 98);
+  padding-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.blog-btn-area a {
+  text-decoration: none;
+  background: white;
+  color: rgb(161, 0, 84);
+  border: solid 2px rgb(161, 0, 84);
+  padding: 20px 40px;
+  border-radius: 30px;
+}
+
+.blog-btn-area {
+  text-align: center;
+  padding: 30px 0;
+}
+
+/* compant-wrapper */
+
+.company-wrapper {
+  padding: 35px 20%;
+}
+
+.company-wrapper-ttl p {
+  font-family: "Indie Flower", cursive;
+  color: rgb(161, 0, 84);
+}
+
+.company-wrapper-ttl h2 {
+  font-size: 2vw;
+  color: rgb(98, 98, 98);
+  padding-bottom: 30px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  color: rgb(98, 98, 98);
+}
+
+th {
+  text-align: left;
+}
+
+table th,
+table td {
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+
+table th {
+  font-weight: bold;
+  background-color: #dedede;
+}
+
+/* last-wrapper */
+
+.last-wrapper {
+  display: flex;
+  padding: 30px 0;
+}
+
+.last-container {
+  width: 50%;
+}
+
+.recruit_img img {
+  width: 100%;
+}
+
+.interview_img img {
+  width: 100%;
+}
+
+.recruit_img p {
+  position: absolute;
+  color: white;
+  font-weight: bold;
+  font-size: 1.5vw;
+  top: 50%;
+  left: 45%;
+}
+
+.interview_img p {
+  position: absolute;
+  color: white;
+  font-weight: bold;
+  font-size: 1.5vw;
+  top: 50%;
+  left: 45%;
+}
+
+/* footer部分 */
+
+.footer-container {
+  text-align: center;
+}
+
+.footer-container h3 {
+  color: rgb(98, 98, 98);
+  text-align: center;
+  padding: 30px;
+}
+
+.line {
+  display: inline;
+  padding: 15px 0;
+  border: solid 1px rgb(161, 0, 84);
+  background: rgb(161, 0, 84);
+}
+
+.contact-btn {
+  text-decoration: none;
+  position: relative;
+  background: linear-gradient(90deg, #e9007a 0%, #a40055 100%);
+  width: 200px;
+  padding: 18px;
+  color: white;
+  font-size: 16px;
+  border-radius: 30px;
+  display: block;
+  margin: 40px auto;
+  box-shadow: 0 7px 0 rgb(111, 0, 63);
+  margin-bottom: 80px;
+}
+
+.copy-right {
+  color: rgb(98, 98, 98);
+  text-align: center;
+  padding: 30px 0;
+  background: rgb(242, 242, 242);
+}
